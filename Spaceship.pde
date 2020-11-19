@@ -1,4 +1,8 @@
 class Spaceship extends Floater  
-{   
-    //your code here
+{
+    public Spaceship();{
+}
+public void setXspeed(double x){
+myXSpeed = x;
+}
 }
