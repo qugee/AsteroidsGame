@@ -7,4 +7,8 @@ public void draw()
 {
   bob.show();
 }
-
+public void keyPressed(){
+if(key == 'a'){
+bob.setXspeed();
+}
+}
