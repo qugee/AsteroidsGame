@@ -23,5 +23,7 @@ myCenterX = x;
 public void setYposition(double y){
 myCenterY = y;
 }
-public void setPointDirection(
+public void setPointDirection(double degree){
+myPointDirection = degree;
+}
 }
