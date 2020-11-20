@@ -20,6 +20,12 @@ if(key == 'd'){
 bob.turn(10);
 }
 if(key == 's'){
-bob.accelerate(0.5);
+bob.accelerate(-0.5);
+}
+if(key == 'q'){
+bob.setXspeed();
+bob.setYspeed();
+bob.setXposition();
+bob.setYposition();
 }
 }
