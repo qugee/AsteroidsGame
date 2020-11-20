@@ -23,9 +23,10 @@ if(key == 's'){
 bob.accelerate(-0.5);
 }
 if(key == 'q'){
-bob.setXspeed();
-bob.setYspeed();
-bob.setXposition();
-bob.setYposition();
+bob.setXspeed(0);
+bob.setYspeed(0);
+bob.setXposition(Math.random()*400);
+bob.setYposition(Math.random()*400);
+bob.setPointDirection(Math.random()*100);
 }
 }
