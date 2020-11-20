@@ -4,10 +4,10 @@ public void setup()
   size(400,400);
 }
 public void draw() 
-{
+{  
+  background(0);
   bob.show();
   bob.move();
-  background(0);
 }
 public void keyPressed(){
 if(key == 'a'){
