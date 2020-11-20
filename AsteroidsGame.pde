@@ -2,12 +2,12 @@ Spaceship bob = new Spaceship();
 public void setup() 
 {
   size(400,400);
-  background(0);
 }
 public void draw() 
 {
   bob.show();
   bob.move();
+  background(0);
 }
 public void keyPressed(){
 if(key == 'a'){
