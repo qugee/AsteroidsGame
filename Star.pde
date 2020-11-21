@@ -1,7 +1,7 @@
-class Star //note that this class does NOT extend Floater
+class Stars //note that this class does NOT extend Floater
 {
 Private int myX, myY;
-public Star()
+public Stars()
 {
   myX = (int)(Math.random()*400);
   myY = (int)(Math.random()*400);
