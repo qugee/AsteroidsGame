@@ -10,6 +10,7 @@ public void setup()
 }
 public void draw() 
 {    
+  background(0);
   for(int i = 0;i<nightSky.length;i++){
   nightSky[i].show;
   }
