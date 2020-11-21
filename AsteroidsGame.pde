@@ -1,11 +1,11 @@
 Spaceship bob = new Spaceship();
-Star[] nightSky = new Star[150];
+Stars[] nightSky = new Stars[150];
 public void setup() 
 {
   size(500,500);    
   background(0);
   for(int i = 0;i<nightSky.length;i++){
-  nightSky[i] = new Star();
+  nightSky[i] = new Stars();
   }
 }
 public void draw() 
@@ -33,8 +33,8 @@ bob.accelerate(-0.5);
 if(key == 'q'){
 bob.setXspeed(0);
 bob.setYspeed(0);
-bob.setXposition(Math.random()*400);
-bob.setYposition(Math.random()*400);
-bob.setPointDirection(Math.random()*100);
+bob.setXposition(Math.random()*500);
+bob.setYposition(Math.random()*500);
+bob.setPointDirection(Math.random()*500);
 }
 }
