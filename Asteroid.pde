@@ -14,6 +14,7 @@ class Asteroid extends Floater
   myColor = (255);
   }
   public move(){
+  turn(rotSpeed);
   myCenterX += myXspeed;    
     myCenterY += myYspeed;     
 
