@@ -1,0 +1,1 @@
+Class Asteroid extends Floater()
