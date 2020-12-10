@@ -1,5 +1,6 @@
 Spaceship bob = new Spaceship();
 Stars[] nightSky = new Stars[150];
+ArrayList <Asteroid> rocks = new ArrayList <Asteroid>();
 public void setup() 
 {
   size(500,500);    
@@ -7,6 +8,8 @@ public void setup()
   for(int i = 0;i<nightSky.length;i++){
   nightSky[i] = new Stars();
   }
+  for(int i = 0;i<rocks.size();i++){
+  
 }
 public void draw() 
 {    
