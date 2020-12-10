@@ -17,7 +17,6 @@ class Asteroid extends Floater
   turn(rotSpeed);
   myCenterX += myXspeed;    
     myCenterY += myYspeed;     
-
     //wrap around screen    
     if(myCenterX >width)
     {     
