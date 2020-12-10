@@ -1,6 +1,6 @@
 class Asteroid extends Floater
 {
-  private double rotSpeed;
+  protected double rotSpeed;
   public Asteroid(){
   myCenterX = 200;
     myCenterY = 200;
