@@ -10,12 +10,12 @@ public class Asteroids extends Floater
   int[] xS = {2,5,10,8,10,3,-6,-7,-6,-9,-11,-8};
   int[] yS = {16,7,7,3,-10,-13,-10,-11,-3,0,4,18};
   xCorners = xS;
-  yCorners = yS;
+  yCorners = yS;  
+  myColor = 128;
   myCenterX = Math.random()*500;
   myCenterY = Math.random()*500;
   myXspeed = speed1;
   myYspeed = speed2;
   myPointDirection = direction;
-  myColor = 128;
   }
 }
