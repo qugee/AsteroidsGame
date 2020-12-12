@@ -6,7 +6,6 @@ public class Asteroids extends Floater
     int direction = (int)(Math.random()*360);
   myCenterX = Math.random()*500;
     myCenterY = Math.random()*500;
-    myCenterY = 200;
     myXspeed = speed1;
     myYspeed = speed2;
    myPointDirection = direction;
