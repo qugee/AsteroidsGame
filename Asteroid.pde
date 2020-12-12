@@ -1,6 +1,6 @@
-public class Asteroid extends Floater
+public class Asteroids extends Floater
 {
-  public Asteroid(){
+  public Asteroids(){
   int speed1 = (int)(Math.random()*4)-2;
     int speed2 = (int)(Math.random()*3)-1;
     int direction = (int)(Math.random()*360);
