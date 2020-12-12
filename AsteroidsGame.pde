@@ -9,7 +9,8 @@ public void setup()
   nightSky[i] = new Stars();
   }
   for(int i = 0;i<rocks.size();i++){
-  
+    rocks.add(i).move();
+    rocks.add(i).show();
 }
 public void draw() 
 {    
@@ -18,7 +19,8 @@ public void draw()
   nightSky[i].show();
   }
   for(int i = 0;i<rocks.size();i++){
-  
+  rocks.get(i).move();
+  rocks.get(i).show();
 }
   bob.show();
   bob.move();
