@@ -15,6 +15,6 @@ public class Asteroids extends Floater
   yCorners = yS;
  int[] xS = {-11,7,13,6,-11,-5};
   int[] yS = {-8,-8,0,10,8,0};
-  myColor = (120);
+  myColor = (128);
   }
 }
