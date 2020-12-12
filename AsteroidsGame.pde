@@ -19,8 +19,8 @@ public void draw()
   nightSky[i].show();
   }
   for(int i = 0;i<rocks.size();i++){
-  rocks.get(i).move();
   rocks.get(i).show();
+  rocks.get(i).move();
   rocks.get(i).turn((int)(Math.random()*7));
 }
   bob.show();
