@@ -8,7 +8,7 @@ public void setup()
   for(int i = 0;i<nightSky.length;i++){
   nightSky[i] = new Stars();
   }
-  for(int i = 0;i<rocks.size();i++){
+  for(int i = 0;i<20;i++){
     rocks.add(new Asteroids());
 }
 public void draw() 
