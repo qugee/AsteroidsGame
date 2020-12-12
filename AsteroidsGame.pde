@@ -17,6 +17,9 @@ public void draw()
   for(int i = 0;i<nightSky.length;i++){
   nightSky[i].show();
   }
+  for(int i = 0;i<rocks.size();i++){
+  
+}
   bob.show();
   bob.move();
 }
