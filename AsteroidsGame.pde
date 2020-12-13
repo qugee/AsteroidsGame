@@ -22,9 +22,6 @@ public void draw()
   rocks.get(i).show();
   rocks.get(i).move();
   rocks.get(i).turn((int)(Math.random()*7));
-  float d = dist(bob.getX(),bob.getY(),rocks.get(i).getX(),rocks.get(i).getY());
-  if(d<10)
-    rocks.remove(i);
 }
   bob.show();
   bob.move();
